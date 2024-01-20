@@ -119,6 +119,7 @@ header {
         border-radius: 10px;
         justify-content: flex-end;
         transition: all 0.50s ease;
+        opacity: 0;
     }
     .navi li{
         display: block;
