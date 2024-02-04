@@ -416,6 +416,33 @@ header {
     width: 100%;
 }
 
+
+.btn2 a{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 34px;
+    font-size: 1.3rem;
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, 0.5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.btn2 a:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+}
+
+
 /* الدائره التي تلف حول الصوره */
 .al {
     width: 700px;
@@ -1047,6 +1074,12 @@ textarea {
     html {
         font-size: 10px;
     }
+    .info-about{
+        margin-right: 6%;
+    }
+    .about-title{
+        margin-right: 15%;
+    }
 }
 
 @media (max-width:822px) {
@@ -1113,7 +1146,7 @@ textarea {
 @media (max-width: 570px){
     .img1{
         top: 113px;
-        left: 113px;
+        margin-left: 40%;
         height: 300px;
     }
     
